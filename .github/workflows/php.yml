@@ -34,7 +34,7 @@ jobs:
       run: composer install --prefer-dist --no-progress
 
     - name: The magic
-      run: php -S 127.0.0.1:8080 &
+      run: php -S 127.0.0.1:80 &
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
